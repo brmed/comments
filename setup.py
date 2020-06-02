@@ -28,13 +28,13 @@ class Tox(TestCommand):
 
 setup(
     name='comments',
-    version='1.0.0',
+    version='1.0.2',
     description='Comments Implementation',
     author='BRMED',
     author_email='desenvolvimento@grupobrmed.com.br',
     url='https://github.com/brmed/comments.git',
     packages=find_packages(),
-    install_requires=['Django>=1.9', 'python-dateutil==2.6.1', 'attrs==18.2.0'],
+    install_requires=['Django>=1.9', 'python-dateutil==2.6.1', 'attrs>=18.2.0'],
     tests_require=['tox>=3.14.0', 'virtualenv>=1.11.2'],
     cmdclass = {'test': Tox},
 )
