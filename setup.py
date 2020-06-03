@@ -28,7 +28,7 @@ class Tox(TestCommand):
 
 setup(
     name='comments',
-    version='1.0.2',
+    version='1.0.3',
     description='Comments Implementation',
     author='BRMED',
     author_email='desenvolvimento@grupobrmed.com.br',
